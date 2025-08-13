@@ -262,6 +262,9 @@ body {
   border-radius: 0.5rem;
   background-color: gray;
 }
+.contact-section .contact-info button:hover {
+  background-color: blue;
+}
 .contact-section .contact-info .description img {
   width: 100px;
   height: 100px;
