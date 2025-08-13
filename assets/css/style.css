@@ -79,9 +79,13 @@ body {
   background-color: rgb(58, 56, 56);
 }
 .about-section .myphoto img {
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 280px;
   border: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
   border-radius: 52% 48% 47% 53%/30% 32% 68% 70%;
 }
 .about-section .about {
